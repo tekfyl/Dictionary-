@@ -22,13 +22,13 @@ bool CompareStringCaseInsensitive(const string& lhs,const string& rhs){
 
    string::size_type common_length = std::min(lhs.length(),rhs.length());
 
-   for(string::size_type i=0;i<common_length;++i){
-      if(toupper(lhs[i]) < toupper(rhs[i]))return true;
-      if(toupper(lhs[i]) > toupper(rhs[i]))return false;
+   for(int i=0; i<common_length; i++){
+      if(toupper(lhs[i]) < toupper(rhs[i])) return true;
+      if(toupper(lhs[i]) > toupper(rhs[i])) return false;
    }
 
-   if(lhs.length()<rhs.length())return true;
-   if(lhs.length()>rhs.length())return false;//can ignore
+   if(lhs.length()<rhs.length()) return true;
+   if(lhs.length()>rhs.length()) return false;//can ignore
 
    return false;//equal should return false
 }
