@@ -18,6 +18,21 @@
 #define rep1(i,n)   for(__typeof(n) i = 1; i <= n; i++)
 using namespace std;
 
+bool CompareStringCaseInsensitive(const string& lhs,const string& rhs){
+
+   string::size_type common_length = std::min(lhs.length(),rhs.length());
+
+   for(string::size_type i=0;i<common_length;++i){
+      if(toupper(lhs[i]) < toupper(rhs[i]))return true;
+      if(toupper(lhs[i]) > toupper(rhs[i]))return false;
+   }
+
+   if(lhs.length()<rhs.length())return true;
+   if(lhs.length()>rhs.length())return false;//can ignore
+
+   return false;//equal should return false
+}
+
 int main(){
     vector<string> words;
     while(1){
@@ -26,7 +41,8 @@ int main(){
         if(s == "Aish") break;
         words.push_back(s);
     }
-    sort(all(words));
+    sort(all(words), CompareStringCaseInsensitive);
+    cout << "# Dictionary" << endl << "A collection of new words I am learning evryday." << endl;
     int i=1;
     for(auto word:words){
         cout << i << "." << " " << word << endl;
