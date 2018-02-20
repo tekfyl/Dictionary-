@@ -13,13 +13,18 @@ A collection of new words I am learning evryday.
 11. jocular: marked by joking
 12. lackluster: lacking spirit
 13. lenity: the quality of being gentle
-14. lofty: very high
-15. madeleine: something that triggers memories or nostalgia
-16. messan: lap/small pet dog
-17. moxie: determination
-18. naissance: birth or growth
-19. objurgate: scold
-20. panegyric: formal or elaborate praise
-21. parched: extremely dry
-22. SOS: any call of help
-23. vigil: wakefulness in normal hours of sleeping
+14. lethargic: deficient in alertness or activity
+15. lofty: very high
+16. lucid: transparently clear; easily understandable
+17. madeleine: something that triggers memories or nostalgia
+18. messan: lap/small pet dog
+19. moxie: determination
+20. naissance: birth or growth
+21. objurgate: scold
+22. panegyric: formal or elaborate praise
+23. parched: extremely dry
+24. pique: a sudden outburst of anger
+25. SOS: any call of help
+26. uncanny: surpassing the ordinary
+27. vague: lacking clarity
+28. vigil: wakefulness in normal hours of sleeping
