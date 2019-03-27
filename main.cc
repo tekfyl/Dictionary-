@@ -33,6 +33,7 @@ bool CompareStringCaseInsensitive(const string& lhs,const string& rhs){
    return false;//equal should return false
 }
 
+// TODO: Add a pair as word(meaning) and example sentence
 int main(){
     vector<string> words;
     while(1){
